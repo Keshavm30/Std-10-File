@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="apple-touch-icon" href="logo.png" sizes="180x180">
+        <link rel="icon" href="logo.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="logo.png" sizes="16x16" type="image/png">
+        <link rel="mask-icon" href="logo.png" color="#563d7c">
+        <link rel="icon" href="logo.png">
+        
+        <title>Order Form</title>
+    </head>
+    <body bgcolor="D97EF9">
+        <Center>
+        <H1 style="font-family:Lucida Calligraphy;color:white;">Welcome to Swadeshi .PVt.LTD.</H1>
+        <H3 style="color:white;">Please Fill The Order Form</H3>
+        </center>
+        <form method="post" action="mailto:keshavm2007@gmail.com" name="f1">
+        <label for="Name">Name:</label>
+        <input name="Name" type="text" placeholder="Keshav"><br><br>
+
+        <label for="Email">Email:</label>
+        <input name="Email" type="text" placeholder="keshavm2007@gamil.com"><br><br>
+        
+        <label for="Address">Address:</label>
+        <textarea name="Address" cols="30" rows="5" placeholder="2nd Floor, Om Shivechha CHS Limited, Mahatma Gandhi Rd, Dahanukar Wadi, Kandivli West, Mumbai, Maharashtra 400067"></textarea><br><br>
+
+        <label for="Pincode">Pincode:</label>
+        <input name="Pincode" type="text"><br><br>
+        <table bordercolor="black" bgcolor="lightgrey" border=2>
+            <tr><th>Product Name</th><th>Priduct Id</th><th>Quantity</th><th>Unit Price</th><th>Total</th></tr>
+            <tr><td>Kurta Pyjama</td><td>KP</td><td><input type="number" name="qty"></td><td>Rs1500</td><td><input type="text" name="tt" value="Rs"></td></tr>
+            <tr><td>Blazer</td><td>BLZ</td><td><input type="number" name="qty"></td><td>Rs3300</td><td><input type="text" name="tt" value="Rs"></td></tr>
+            <tr><td>Sweatshirt</td><td>SWT</td><td><input type="number" name="qty"></td><td>Rs899</td><td><input type="text" name="tt" value="Rs"></td></tr>
+            <tr><td>Nehru Jacket</td><td>NHJ</td><td><input type="number" name="qty"></td><td>Rs1200</td><td><input type="text" name="tt" value="Rs"></td></tr>
+            <tr><td>Shirt</td><td>SHT</td><td><input type="number" name="qty"></td><td>Rs1399</td><td><input type="text" name="tt" value="Rs"></td></tr>
+            <tr><td align="right" colspan="5">Grand Total:<input type="number" name="tt" value="Rs"></td</tr> 
+            </table>
+            <br><br>
+            <table>
+                <caption><b>Credit/Debit Card Details</b><br>Card Type:</caption>
+                <tr><td><input type="radio" name="xy">Mastercard</td><td>Card Number:</td><td><input type="number" Name="ad"></td></tr>
+                <tr><td><input type="radio" name="xy">Visa</td><td>Expiry date:</td><td><input type="date" Name="ad" value="mm/yy"></td></tr>
+                <tr><td><input type="radio" name="xy">American Express</td><td>CVV:</td><td><input type="text" Name="ad"></td></tr>
+                <tr><th>Delivary Address:</th><td colspan="2"><textarea rows=5></textarea></td></tr>
+                </table><br><br>
+                <input type="submit" value="Send order"> <input type="reset" value="Clear form">
+            </form>
+    </body>
+</html>
